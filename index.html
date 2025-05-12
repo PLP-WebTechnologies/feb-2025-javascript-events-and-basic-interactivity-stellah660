@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to the Interactive Playground!</h1>
+  </header>
+
+  <!-- Event Handling Section -->
+  <section id="events">
+    <h2>Event Handling</h2>
+    <button id="changeTextBtn">Click Me to Change Text</button>
+    <button id="hoverBtn">Hover over me!</button>
+    <input type="text" id="keypressInput" placeholder="Type something" />
+    <div id="doubleClickBox">Double-click me!</div>
+  </section>
+
+  <!-- Interactive Elements -->
+  <section id="interactive">
+    <h2>Interactive Elements</h2>
+    <button id="colorChangeBtn">Change My Color</button>
+    <div id="gallery">
+      <img src="https://via.placeholder.com/150" alt="Image 1" />
+      <img src="https://via.placeholder.com/150" alt="Image 2" />
+      <img src="https://via.placeholder.com/150" alt="Image 3" />
+    </div>
+  </section>
+
+  <!-- Form Validation Section -->
+  <section id="form-validation">
+    <h2>Form Validation</h2>
+    <form id="form">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required minlength="8" /><br><br>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="feedback"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made with ❤️ by Your Name</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
